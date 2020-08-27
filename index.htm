@@ -211,5 +211,55 @@
         </div>
 
 
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js" integrity="sha256-HfH85PYPD7XPxN3MmppGXnxsLZUrlu0dN/Kn4H7DA4E=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+            window.cookieconsent.initialise({
+                "palette": {
+                "popup": {
+                "background": "#efefef",
+                "text": "#404040"
+            },
+                "button": {
+                "background": "#8ec760",
+                "text": "#ffffff"
+            }
+        },
+            "position": "bottom-right"
+        });
+        </script>
+        
+        <script>
+            $(function () {
+                var scroll = new SmoothScroll('a[href*="#"]');
+                /*
+                $('.showroom a').fluidbox({
+                    loader: true
+                });
+                */
+
+                jQuery("#start-title").fitText(1, { minFontSize: '50px', maxFontSize: '140px' });
+                jQuery(".sub-title").fitText(1, { minFontSize: '55px', maxFontSize: '70px' });
+        $('img[large-src]').each(function() {
+            var img = $(this);
+            var newimg = new Image();
+            newimg.src = img.attr('large-src');
+            newimg.setAttribute('class', img.attr('large-class'));
+            newimg.onload = function() {
+            img.replaceWith(newimg);
+            };
+        });
+
+            });
+        </script>
+
+
     </body>
 </html>
