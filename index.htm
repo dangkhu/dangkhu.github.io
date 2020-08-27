@@ -8,6 +8,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>test</title>
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+        <link rel="stylesheet" href="main.css">
      
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="test">
@@ -19,5 +25,189 @@
     <body>
 	<p>test</p>
 
+    <div class="page">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container">
+            <h1><a class="navbar-brand" href="/"><img src="/img/LogoBlack.svg" width="110" alt="KIOSKER.IO"></a></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a data-scroll class="nav-link" href="/#top">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a data-scroll class="nav-link dropdown-toggle" href="" data-toggle="dropdown" id="navbarDropdown">Features</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/#features" data-toggle="collapse" data-target=".navbar-collapse.show">Introduction</a>
+                <a class="dropdown-item" href="/features">Feature List</a>
+              </div>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="/#about">About</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a data-scroll class="nav-link" href="/#showroom">Showroom</a>
+          </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a data-scroll class="nav-link" href="/contact">Contact</a>
+      </li>
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link" href="https://iport-products.com" target="_blank">Get Hardware</a>
+      </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="https://docs.kiosker.io/#">Documentation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <div class="navbar-fix"></div>
+
+        <div class="start" id="home">
+            <div class="container startcontainer align-self-center">
+                <div class="row startrow">
+                    <div class="col-sm align-self-center">
+                        <h1 id="start-title">Kiosker</h1>
+                        <div class="start-intro">
+                            <p id="start-p">Kiosker transforms any iPad into a fully featured fullscreen web kiosk in just one step. Create a beautiful signup kiosk, an interactive product guide or a smart home control panel.</p>
+                            <a href="https://apps.apple.com/us/app/kiosker-fullscreen-web-kiosk/id1481691530"><img class="appstore_img" src="/img/appstore.png" alt="Download on the App Store"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="start-mockup">
+            <img src="/img/compositation/Composition@0,25x.png" large-src="/img/compositation/Composition.png" alt="Demostration usage" class="start-mockup-image" large-class="start-mockup-image">
+        </div>
+
+        <div class="features" id="features">
+            <div class="container">
+                <div class="intro align-self-center">
+                    <h2>Features</h2>
+                    <p>Kiosker is developed in <img class="flag_img" src="img/flag.svg" alt="Sweden"> with compatibility and ease of use in mind. Customer satisfaction is our number one priority. Don't hesitate to <a href="/contact">contact us</a> if you see something you don't like or if you're having a feature request.</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 feature-item">
+                        <i class="far fa-compass feature-icon"></i>
+                        <h3>Works with any website</h3>
+                        <p>Kiosker handles all websites that support WebKit. Kiosker is full of features including JavaScript and popups.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 feature-item">
+                        <i class="far fa-user feature-icon"></i>
+                        <h3>User Friendly</h3>
+                        <p>We developed the app around the idea that anyone, regardless of their technical knowledge, should be able to set up and configure Kiosker.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 feature-item">
+                        <i class="fas fa-cog feature-icon"></i>
+                        <h3>Customizable</h3>
+                        <p>Kiosker includes an advanced configuration panel that lets you customize Kiosker down to the last detail. Visit <a href="https://docs.kiosker.io/" title="Documentation">the docs</a> for more information about configuration.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 feature-item">
+                        <i class="far fa-paper-plane feature-icon"></i>
+                        <h3>Scalable</h3>
+                        <p>Once you're done configuring your first device, export your configuration and send it to your other devices.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 feature-item">
+                        <i class="fas fa-tablet-alt feature-icon"></i>
+                        <h3>Versatile</h3>
+                        <p>Kiosker supports devices with iOS 9.3 or newer. This means that you can use Kiosker on iPad 2 or newer.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 feature-item">
+                        <i class="fas fa-dollar-sign feature-icon"></i>
+                        <h3>Cost Effective</h3>
+                        <p>We give you Kiosker with full functionality in one version. There is no professional or enterprise version.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="about" id="about">
+            <div class="container align-self-center">
+                <div class="row">
+                    <div class="about-container">
+                            <h2>About</h2>  
+                            <p>Kiosker is a fullscreen browser for iOS that is specifically designed for running on the iPad but also works on other devices (iPhone, iPod). As a highly customizable web browser, the application lets you display custom fullscreen content on the iPad. Our application lets you control the user experience by controlling what features will be available for the user. It's possible to hide or show the navigation bar, restrict domains, return to home after a certain amount of time or when the kiosk is inactive, turn off the screen when the kiosk is unused, disable user interaction partly or completely, pair an external flic button and <a href="/features" title="Features">much more</a>.</p>
+                            <p>For easy maintenance, there is an option to add an expandable menu over the web content. This <a href="https://docs.kiosker.io/#/guide?id=menu">onscreen menu</a> gives you access to change settings, return home, show or hide the navigation bar and navigate to your favorite URLs. To prevent unauthorized access, the onscreen menu can be hidden and shown by double-tapping five times anywhere on the screen.</p>
+                            <p>Kiosker handles any webpage (remote or local) and doesn't require any special coding. This differs from using the native "Add to Home Screen" function which requires a webpage that is specifically developed for being rendered in fullscreen.</p>
+                            <p>The built-in screensaver functionality lets you dim down the screen and preserve power when the kiosk is unused or at a predefined time. The screensaver is automatically hidden when the screen is taped. On devices with iOS 11 or newer, it's possible to hide the screensaver when someone looks at the screen using the built-in camera for face detection.</p>
+                            <p>Since Kiosker is specifically developed for beeing your tailored web browser, we are always interested in feedback regarding bugs, feature requests, improvement ideas, and success stories. Please use our <a href="/contact" title="Contact Us">contact form</a> for getting in touch with us. If you need any help with setting up your web kiosk, please refer to our <a href="https://docs.kiosker.io">documentation</a>. If you're happy with our application, we'd be more than happy if you rate us on the Apple App Store.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="showroom" id="showroom">
+            <div class="container">
+                <div class="intro align-self-center">
+                    <h2 class="sub-title">Showroom</h2>
+                    <p>We are realy curious to see what you can make out of kiosker. Use our showroom as inspiration.</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 showroom-item">
+                        <img src="img/showroom/product/Product@0,25x.png" title="" alt="" />
+                        <h3>Product Guide</h3>
+                        <p>Tell your customers why they should buy your products by showing them an interactive product demo.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 showroom-item">
+                        <img src="img/showroom/controlpanel/Controlpanel@0,25x.png" title="" alt="" />
+                        <h3>Smart Home</h3>
+                        <p>Control your modern home from a wall mounted iPad. Use any smart home controller that has a web-based control panel.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 showroom-item">
+                        <img src="img/showroom/signup/Signup.png" title="" alt="" />
+                        <h3>Signup</h3>
+                        <p>Let your customers sign up for your newsletter or your customer club.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 showroom-item">
+                        <img src="img/showroom/exam/Exam@0,25x.png" title="" alt="" />
+                        <h3>Exam</h3>
+                        <p>Test your students' knowledge with a digital exam. Lock the device to Kiosker to prevent cheating.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 showroom-item">
+                        <img src="img/showroom/weather/Weather@0,25x.png" title="" alt="" />
+                        <h3>Weather</h3>
+                        <p>Transform your iPad into a weather station by displaying an online weather forecast dashboard.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 showroom-item">
+                        <img src="img/showroom/social/Social@0,25x.png" title="" alt="" />
+                        <h3>Social Media</h3>
+                        <p>Show your visitors your success on social media, and encourage them to follow you on social media platforms.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <img src="img/Logo.png" class="logo" alt="C-Konsult Logo">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="https://docs.kiosker.io/#/agreement">Terms</a>
+                    </li>
+                    <li>
+                        <a href="https://docs.kiosker.io/#/privacy">Privacy Policy</a>
+                    </li>
+                </ul>
+                <p class="copyright">C-Konsult i Gislaved AB © 2019</p>
+            </div>
+        </div>
+        </div>
+
+        
     </body>
 </html>
